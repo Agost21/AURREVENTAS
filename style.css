@@ -170,10 +170,10 @@ main {
 }
 
 .productosDestacados {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
   width: 100vw;
   height: fit-content;
   background-color: rgb(13, 17, 23);
@@ -208,12 +208,6 @@ main {
   font-size: 1rem;
   margin-left: auto;
   margin-right: auto;
-}
-.productos > img {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
 }
 .precio2 {
   background-color: rgb(255, 0, 55);
@@ -774,14 +768,22 @@ footer {
   }
 
   .destacados {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
     width: 100vw;
     height: fit-content;
   }
-  
+
+  .productos {
+    width: 100vw;
+    margin-left: auto;
+    margin-right: auto;
+    display: grid;
+    place-content: center;
+  }
+
   .formContacto {
     background: linear-gradient( 115deg, rgb(0, 0, 0), rgba(28, 28, 32, 0));
     margin: 0 auto;

@@ -129,7 +129,7 @@ main {
   margin-top: 1rem;
   background: rgba(0, 0, 0, 0);
   font-family: 'Spartan', sans-serif;
-  font-size: 1.2rem;
+  font-size: 1rem;
   font-weight: lighter;
   color: white;
   border: 1px solid white;
@@ -201,11 +201,19 @@ main {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  width: fit-content;
+  width: 100vw;
   height: fit-content;
   font-family: 'Titillium Web', sans-serif;
   color: rgb(255, 255, 255);
   font-size: 1rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+.productos > img {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 .precio2 {
   background-color: rgb(255, 0, 55);
